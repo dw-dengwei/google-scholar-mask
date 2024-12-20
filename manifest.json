@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Scholar Masker",
-  "description": "Mask certain Scholar divs based on data-cid.",
+  "description": "Mask articles that you don't want to read in Google Scholar.",
   "version": "1.0",
   "permissions": [
     "storage"
