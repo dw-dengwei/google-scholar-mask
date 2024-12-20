@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Scholar Masker",
+  "description": "Mask certain Scholar divs based on data-cid.",
+  "version": "1.0",
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://scholar.google.com/scholar*"],
+      "js": ["content.js"]
+    }
+  ]
+}
