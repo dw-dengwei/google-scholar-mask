@@ -8,3 +8,7 @@ The mask status will be saved in your browser's local storage and if you refresh
 2. Click `Export` or `Import` button to export or import the mask status of articles.
 If you wish to share the mask status with other devices, you can export the mask status and import it on them.
 ![alt text](assets/sl.png)
+
+# Installation
+This is a extension for Google Chrome and Microsoft Edge.
+Download this repository, extract, and load it in the `chrome://extensions/` or `edge://extensions/` page.
